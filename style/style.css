@@ -172,3 +172,73 @@ body{
     z-index: 2;
     background-color: rgb(255, 87, 179);
 }
+
+.sombra{
+    height: 40px;
+    width: 160px;
+    background-color: rgba(153, 130, 0, 0.3);
+    position: absolute;
+    top: 280px;
+    right: 10px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.brilho-1{
+    background-color: white;
+    position: absolute;
+    content: "";
+    border-radius: 100px;
+    width: 11px;
+    height: 11px;
+}
+
+.brilho-1.a{
+    margin: auto;
+    left: 0px;
+    right: 100px;
+    bottom: 10px;
+    top: 0;
+    z-index: 10;
+}
+
+.brilho-1.b{
+    margin: auto;
+    left: 80px;
+    right: 0px;
+    bottom: 10px;
+    top: 0;
+    z-index: 10;
+}
+
+.circulo-pequeno1{
+    background-color: white;
+    position: absolute;
+    content: "";
+    border-radius: 100px;
+    width: 7px;
+    height: 7px;
+    margin: auto;
+    left: 100px;
+    right: 0px;
+    bottom:10px;
+    top: 10px;
+    z-index: 12;
+    /* border: 2px solid red; */
+}
+
+.circulo-pequeno2{
+    background-color: white;
+    content: "";
+    border-radius: 100px;
+    width: 7px;
+    height: 7px;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    right: 80px;
+    bottom:0px;
+    top: 0px;
+    z-index: 12; 
+    /* border: 2px solid red; */
+}
