@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0;
     margin: 0;
     background-color: #ff9900;
@@ -6,13 +6,13 @@ body{
 
 *,
 *:before,
-*after{
+*after {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
 
-.head{
+.head {
     content: "";
     width: 190px;
     height: 200px;
@@ -43,7 +43,7 @@ body{
 	}
 }
 
-.body{
+.body {
     content: "";
     width: 190px;
     height: 140px;
@@ -57,7 +57,7 @@ body{
     top: 140px;
 }
 
-.alt.a1{
+.alt.a1 {
     border-bottom-left-radius: 200px;
     border-top-left-radius: 100px;
     bottom: 95px;
@@ -67,7 +67,7 @@ body{
     top: 195px;
     transform: rotate(-90deg);
 }
-.alt.a2{
+.alt.a2 {
     border-bottom-left-radius: 300px;
     border-top-left-radius: 300px;
     bottom: 95px;
@@ -77,7 +77,7 @@ body{
     top: 200px;
     transform: rotate(-90deg);
 }
-.alt.a3{
+.alt.a3 {
     border-bottom-left-radius: 200px;
     border-top-left-radius: 210px;
     bottom: 95px;
@@ -103,7 +103,7 @@ body{
     position: absolute;
 }
 
-.olho-1{
+.olho-1 { 
     content: "";
     width: 30px;
     height: 30px;
@@ -118,7 +118,7 @@ body{
     z-index: 1;
     left: 90px;
 }
-.olho-2{
+.olho-2 {
     content: "";
     width: 30px;
     height: 30px;
@@ -133,7 +133,7 @@ body{
     z-index: 1;
     left: -90px;
 }
-.boca{
+.boca {
     content: "";
     width: 30px;
     height: 5px;
@@ -151,7 +151,7 @@ body{
     transform: rotate(-180deg);
 }
 
-.bochecha-1{
+.bochecha-1 {
     content: "";
     width: 30px; 
     height: 30px;
@@ -170,7 +170,7 @@ body{
     background-color: rgb(255, 87, 179);
 }
 
-.bochecha-2{
+.bochecha-2 {
     content: "";
     width: 30px; 
     height: 30px;
@@ -189,7 +189,7 @@ body{
     background-color: rgb(255, 87, 179);
 }
 
-.sombra{
+.sombra {
     height: 40px;
     width: 160px;
     background-color: rgba(153, 130, 0, 0.3);
@@ -219,7 +219,7 @@ body{
 	}
 }
 
-.brilho-1{
+.brilho-1 {
     background-color: white;
     position: absolute;
     content: "";
@@ -228,7 +228,7 @@ body{
     height: 11px;
 }
 
-.brilho-1.a{
+.brilho-1.a {
     margin: auto;
     left: 0px;
     right: 100px;
@@ -237,7 +237,7 @@ body{
     z-index: 10;
 }
 
-.brilho-1.b{
+.brilho-1.b {
     margin: auto;
     left: 80px;
     right: 0px;
@@ -246,7 +246,7 @@ body{
     z-index: 10;
 }
 
-.circulo-pequeno1{
+.circulo-pequeno1 {
     background-color: white;
     position: absolute;
     content: "";
@@ -261,7 +261,7 @@ body{
     z-index: 12;
 }
 
-.circulo-pequeno2{
+.circulo-pequeno2 {
     background-color: white;
     content: "";
     border-radius: 100px;
@@ -276,7 +276,7 @@ body{
     z-index: 12; 
 }
 
-a{
+a {
     color: white;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
@@ -289,7 +289,7 @@ a{
     margin: auto;
     text-decoration: none;
 }
-a:hover{
+a:hover {
     cursor: pointer;
     background-color: rgb(255, 87, 179);
    
