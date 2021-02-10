@@ -25,7 +25,7 @@ body{
     background-color: #FFFFFF;
     border-radius: 100% 90% 100% 100% / 100% 90% 100% 100%;
     transform: translatey(0px);
-	animation: float 2s ease-in-out infinite;
+	animation: float 3s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -201,7 +201,7 @@ body{
     z-index: -1;
     margin: auto;
     transform: translatey(0px);
-	animation: efeito-sombra 2s ease-in-out infinite;
+	animation: efeito-sombra 3s ease-in-out infinite;
 }
 
 @keyframes efeito-sombra {
