@@ -23,7 +23,7 @@ body{
     bottom: 0;
     top: 0;
     background-color: #FFFFFF;
-    /*top, right, bottom, left*/
+    /* border: 2px solid red; */
     border-radius: 100% 90% 100% 100% / 100% 90% 100% 100%;
 }
 
@@ -240,5 +240,23 @@ body{
     bottom:0px;
     top: 0px;
     z-index: 12; 
-    /* border: 2px solid red; */
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 30px;
+    background-color: rgb(252, 57, 164) ;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    left: 10px;
+    margin: auto;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    background-color: rgb(255, 87, 179);
+   
 }
